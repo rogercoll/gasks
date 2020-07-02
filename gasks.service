@@ -1,0 +1,6 @@
+[Unit]
+Description=Reminder of the tasks TODO
+After=networking.service
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/gasks :5060
